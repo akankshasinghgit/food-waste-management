@@ -9,7 +9,7 @@ st.set_page_config(
     layout="wide"
 )
 
-engine = create_engine("mysql+mysqlconnector://root:2004@localhost/food_wastage_db")
+engine = create_engine("mysql+mysqlconnector://avnadmin:AVNS_czTAWhuQe7C3JC6lFtu@mysql-33eeeee5-akan2004-71e3.i.aivencloud.com:19245/defaultdb")
 
 if "active_page" not in st.session_state:
     st.session_state.active_page = "🏠 Home"
